@@ -1,0 +1,17 @@
+Calatoaie Iulia-Adriana
+Grupa 335CA
+
+Tema 1 LFA
+
+Pentru implementarea temei in java am adaugat o clasa DFA (si una Node ce
+contine nodul parinte si copii acestuia), ce contine cele de trebuinta pentru
+prelucrarea datelor: starea initiala, multimea starilor finale, graful
+tranzitiilor si graful transpus. Pentru a descoperi daca accepta sirul vid, voi
+cauta starea initiala in multimea starilor finale. Pentru a gasi starile
+accesibile, fac bfs din sursa, iar nodurile rezultate sunt cele cautate. Pentru
+a gasi starile utile, aflu mai intai starile accesibile si apoi, din fiecare
+stare finala care este si accesibila pornesc cate un bfs. Daca pe langa
+conditia de nedescoperire anterioara, starea este unul accesibila atunci am
+gasit o stare utila. Pentru limbajul vid, verific daca vreo stare finala este
+accesibila, daca exista stari utile si daca starile utile contin sursa, iar in
+functie de valorile de adevar ale acestor variabile se va da raspunsul.
